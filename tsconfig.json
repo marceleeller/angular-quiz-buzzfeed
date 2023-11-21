@@ -4,6 +4,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "resolveJsonModule":true, //adicionado
+    "allowSyntheticDefaultImports": true, //adicionado
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
